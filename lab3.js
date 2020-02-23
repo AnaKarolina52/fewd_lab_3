@@ -34,3 +34,31 @@ var hi = function(name){
 var h1 = hi('Selva');
 var h2 = hi('Pola');
 var x = h1 + ' ' + h2;
+
+/*8. Write a function  shout  that takes a s  tring  and returns this string  duplicated .
+ In addition, the return should be  logged . 
+ The call shout('Fire') should return 'FireFire' and should log 'FireFire' for example.*/
+
+ 
+//9. Which value does x have after execution of the following code?
+
+var double = function(name){
+    return name + ' and'+ name;
+};
+
+var x = double('Roy');
+
+//10. In one word, what is a block of code that executes whenever you invoke its name?
+
+/*11. Write a function called  doSomething  with a parameter called  name ,  return  the name parameter. 
+On the next line call the function with a  value for the name  ( can be any name you like ).*/
+//12. Define a function called  multiplyFive  which accepts a  number  and r  eturns  that number multiplied by 5 .
+/*13. Define a function called  myFunction t  hat uses the  alert()  method   with a string value “Hello World!”  inside.  
+Call  myFunction on the next line.*/
+/*14. Define a variable called  isAnswerRight  and give it a  true  value. 
+Use the  ternary operator  to console.log the  ‘The answer is right!’ 
+ if the value is true and  ‘The answer is wrong!’  if the value is false.*/
+/*15.Write a function named  tellFortune  that: takes  4 arguments : number of children, partner's name, 
+geographic location, job title.
+ Output your fortune to the screen like so:  "You will be a X in Y, and married to Z with N kids."  
+Call that function 3 times with 3 different values for the arguments.*/
