@@ -1,28 +1,40 @@
-/*3.a) Define a function ( expression)   greet r  eturning the value  'Haydo!' .
+/*3.a) Define a function ( expression)   greet returning the value  'Haydo!' .
 b) Declare a variable  salutation . 
 Call the function  greet  and  assign the result  of the call to the variable  salutation .*/
 
-function greet(x) {
-
-    var x = "Haydo!";
+function greet(){
    
-    return x;
-    
-};
-console.log(x);
+    return 'Haydo!'
+}
+var salutation = greet();
+
+console.log(salutation);
 
 //4. Write a function  echo  that has a parameter called  sound  and return that passed parameter.
+
+function echo(sound){
+
+
+    return sound;
+}
 
 /*5. Write a function  greet  having a parameter called  name . 
 Return  'Hello <parameter> !' where the parameter variable is concatenated with the ‘Hello’ and ‘!’ strings.*/
 
+function greet(name){
+    console.log('Helo '+name+'!');
+} 
+greet('karol');
+
+
 //6. Which value does x have after execution of the following code?
 
-/*var whereIs = function(name) {
+var whereIs = function(name) {
     
     return 'whereIs' + name + '?';
 };
-var x = whereIs ('Jack');*/
+var x = whereIs ('Jack');
+console.log(x);
 
 //7. Which value does x have after execution of the following code?
 
@@ -34,6 +46,7 @@ var hi = function(name){
 var h1 = hi('Selva');
 var h2 = hi('Pola');
 var x = h1 + ' ' + h2;
+console.log(x);
 
 /*8. Write a function  shout  that takes a s  tring  and returns this string  duplicated .
  In addition, the return should be  logged . 
