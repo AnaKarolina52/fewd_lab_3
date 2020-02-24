@@ -2,6 +2,7 @@
 b) Declare a variable  salutation . 
 Call the function  greet  and  assign the result  of the call to the variable  salutation .*/
 
+
 function greet(){
    
     return 'Haydo!'
@@ -52,7 +53,13 @@ console.log(x);
  In addition, the return should be  logged . 
  The call shout('Fire') should return 'FireFire' and should log 'FireFire' for example.*/
 
- 
+ var shout = function(name){
+    return name + name;
+};
+
+var x = shout('Fire');
+console.log(x);
+
 //9. Which value does x have after execution of the following code?
 
 var double = function(name){
@@ -60,11 +67,18 @@ var double = function(name){
 };
 
 var x = double('Roy');
+console.log(x)
 
-//10. In one word, what is a block of code that executes whenever you invoke its name?
 
 /*11. Write a function called  doSomething  with a parameter called  name ,  return  the name parameter. 
 On the next line call the function with a  value for the name  ( can be any name you like ).*/
+
+var doSomething = function(name){
+    return name ;
+};
+
+var x = doSomething('Karol');
+console.log(x);
 //12. Define a function called  multiplyFive  which accepts a  number  and r  eturns  that number multiplied by 5 .
 /*13. Define a function called  myFunction t  hat uses the  alert()  method   with a string value “Hello World!”  inside.  
 Call  myFunction on the next line.*/
@@ -75,3 +89,11 @@ Use the  ternary operator  to console.log the  ‘The answer is right!’
 geographic location, job title.
  Output your fortune to the screen like so:  "You will be a X in Y, and married to Z with N kids."  
 Call that function 3 times with 3 different values for the arguments.*/
+
+function greet(){
+   
+    return 'Haydo!'
+}
+var salutation = greet();
+
+console.log(salutation);
